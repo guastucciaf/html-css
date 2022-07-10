@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação em CSS</title>
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div {
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            border: 1px solid black;
+        }
+        .realce {
+            background-color: yellow;
+        }
+        #bl1 {
+            background-color: #8B0000
+        }
+        #bl2 {
+            background-color: #556B2F;
+        }
+        #blgray {
+            background-color: #D3D3D3;
+        }
+        .blsblue {
+            background-color: #00008B;;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Identificadores em CSS</h1>
+    <p>No exercício anterior, vimos as <span class="realce">classes</span> e entendemos que vários elementos podem ter uma mesma classe. Mas se quisermos <span class="realce">identificar</span> os elementos, dando um "nome" específico para cada um, podemos usar os IDs. Em um mesmo documento, <strong>não podemos ter dois elementos com o mesmo ID!</strong></p>
+    <div id="bl1"></div>
+    <div id="bl2"></div>
+    <div class="blsblue"></div>
+    <div id="blgray"></div>
+    <div class="blsblue"></div>
+</body>
+</html>
